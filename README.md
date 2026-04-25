@@ -1,2 +1,3 @@
 # Pneumonia-Detection-from-Chest-X-ray-Images
 This project builds a deep learning pipeline to automatically classify chest X-ray images into:  NORMAL PNEUMONIA  The model uses transfer learning with ResNet18, fine-tuned on a medical dataset to achieve strong generalisation performance.
+Instead of training a convolutional neural network from scratch, this project leverages transfer learning, allowing the model to benefit from features learned on large-scale image datasets. A pretrained ResNet18 backbone is used as a feature extractor, followed by a custom classifier head designed with fully connected layers, batch normalization, ReLU activations, and dropout for improved generalization.
